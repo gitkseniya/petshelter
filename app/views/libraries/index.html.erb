@@ -1,0 +1,9 @@
+<h1>List of Libraries in Pushkin Network</h1>
+
+<% @libraries.each do |library| %>
+  <h3>
+    <a href="/libraries/<%= library.id %>"><%= library.name %></a>
+  </h3>
+
+  <p>(district number: <%= library.district_num %>)</p>
+<% end %>
