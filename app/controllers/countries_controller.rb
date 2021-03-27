@@ -8,7 +8,9 @@ class CountriesController < ApplicationController
       name: params[:task][:name],
       population: params[:task][:population],
       gdp: params[:task][:gdp],
-      has_monarch: params[:task][:has_monarch]
+      has_monarch: params[:task][:has_monarch],
+#      created_at: params[:task][:created_at],
+#      updated_at: params[:task][:updated_at]
       })
 
     country.save

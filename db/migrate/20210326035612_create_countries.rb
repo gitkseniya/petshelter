@@ -5,6 +5,8 @@ class CreateCountries < ActiveRecord::Migration[5.2]
       t.integer :population
       t.integer :gdp
       t.boolean :has_monarch
+
+      t.timestamps
     end
   end
 end
