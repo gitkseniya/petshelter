@@ -1,5 +1,3 @@
 class City < ApplicationRecord
-  belongs_to :artist
-
-  
+  belongs_to :countries, optional: true
 end

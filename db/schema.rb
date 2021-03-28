@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_03_27_055001) do
+ActiveRecord::Schema.define(version: 2021_03_27_231753) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -29,6 +29,8 @@ ActiveRecord::Schema.define(version: 2021_03_27_055001) do
     t.integer "population"
     t.integer "gdp"
     t.boolean "has_monarch"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
 end

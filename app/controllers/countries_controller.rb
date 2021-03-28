@@ -1,6 +1,6 @@
 class CountriesController < ApplicationController
   def index
-    @countries = Country.all
+    @countries = Country.all.order(id: :desc)
   end
 
   def create
@@ -22,5 +22,10 @@ class CountriesController < ApplicationController
     @countries = Country.find(params[:id])
   end
 
+
+  def show_individual
+#    require 'pry'; binding.pry
+    @countries = Country.find(params[:id]) #why :parent_id, and not just :id
+  end
 
 end

@@ -10,4 +10,9 @@ Rails.application.routes.draw do
   get '/cities', to: "cities#index"
   get '/cities/:id', to: 'cities#show'
 
+
+
+  get '/countries/:id/cities', to: 'countries#show_individual'
+
+
 end
