@@ -1,4 +1,8 @@
-<h1>All Airlines</h1>
+<a href="/airports/<%= @airport.id %>"><%= "Back to #{@airport.name}" %></a>
+<a href="/airlines">All Airlines</a>
+<a href="/airports">All Airports</a>
+
+<h1><%= "Airlines Flying at #{@airport.name}" %></h1>
 
 <% @airlines.each do |airline| %>
   <h2><%= airline.name %></h2>
