@@ -1,0 +1,5 @@
+<h1>All Airlines</h1>
+
+<% @airlines.each do |airline| %>
+  <h3><a href="<%=@airport.id%>/airlines/<%= airline.id %>"><%= airline.name %></a></h3>
+<% end %>

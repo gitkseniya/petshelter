@@ -267,12 +267,13 @@
           1,
           null,
           1,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
           null,
           null
         ]
@@ -285,6 +286,28 @@
           1,
           1,
           null,
+          1,
+          1,
+          null,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
           1,
           1,
           null,
@@ -315,6 +338,10 @@
           1,
           null,
           null,
+          1,
+          0,
+          null,
+          null,
           null
         ]
       },
@@ -335,18 +362,23 @@
           null
         ]
       },
-      "/Users/jenniferbrabson/Turing/2102BE/Mod_2/Projects/relational_rails/app/controllers/airports_controller.rb": {
+      "/Users/jenniferbrabson/Turing/2102BE/Mod_2/Projects/relational_rails/app/controllers/airlines_controller.rb": {
         "lines": [
           1,
           1,
-          1,
+          0,
           null,
           null,
           1,
-          1,
+          4,
           null,
           null,
-          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
           null,
           null
         ]
@@ -357,21 +389,30 @@
           null
         ]
       },
-      "/Users/jenniferbrabson/Turing/2102BE/Mod_2/Projects/relational_rails/app/controllers/airlines_controller.rb": {
+      "/Users/jenniferbrabson/Turing/2102BE/Mod_2/Projects/relational_rails/app/controllers/airports_controller.rb": {
         "lines": [
           1,
           1,
-          0,
+          1,
           null,
           null,
           1,
           1,
           null,
+          null
+        ]
+      },
+      "/Users/jenniferbrabson/Turing/2102BE/Mod_2/Projects/relational_rails/app/controllers/airport_airlines_controller.rb": {
+        "lines": [
+          1,
+          1,
+          2,
+          2,
           null,
           null
         ]
       }
     },
-    "timestamp": 1616864678
+    "timestamp": 1616897376
   }
 }

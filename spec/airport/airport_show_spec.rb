@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe "airport details page", type: :feature do
+RSpec.describe "Story2: When I visit airport details page", type: :feature do
   it "displays airport details" do
     jfk = Airport.create!(name: 'John F Kennedy', terminals: 175, international_hub: true)
 

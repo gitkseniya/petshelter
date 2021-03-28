@@ -6,7 +6,4 @@ class AirportsController < ApplicationController
   def show
     @airport = Airport.find(params[:id])
   end
-
-  def airlines_list
-  end
 end

@@ -4,4 +4,8 @@ class Airport < ApplicationRecord
   def params
   end
 
+  def show
+    @airports = Airport.find(params[:id])
+  end
+
 end
