@@ -1,6 +1,6 @@
 class AirportsController < ApplicationController
   def index
-    @airports = Airport.all
+    @airports = Airport.order("created_at DESC")
   end
 
   def show

@@ -11,18 +11,19 @@ RSpec.describe "Story2: When I visit airport details page", type: :feature do
   end
 end
 
-RSpec.describe "Story5: When I visit an airport's available airlines page", type: :feature do
-  it "displays airlines at specified airport and airline details" do
-    jfk = Airport.create!(name: 'John F Kennedy', terminals: 175, international_hub: true)
-    spirit = jfk.airlines.create!(name:'Spirit', flight_number: 424, domestic_flight: true)
-    united = jfk.airlines.create!(name:'United', flight_number: 513, domestic_flight: true)
+RSpec.describe "Story7: When I visit airport index", type: :feature do
+  it "displays count of number of airlines associated with airport" do
+    jfk = Airport.create!(name: 'John F Kennedy', terminals: 6, international_hub: true)
+    jfk.airlines.create!(name:'Delta', flight_number: 717, domestic_flight: true)
+    jfk.airlines.create!(name:'United', flight_number: 431, domestic_flight: false)
+    jfk.airlines.create!(name:'American', flight_number: 414, domestic_flight: true)
+    visit "/airports/#{jfk.id}"
+    expect(page).to have_content("Airlines At This Airport (3)")
 
-  visit "/airports/airports/#{jfk.id}/airlines"
-  expect(page).to have_content(spirit.name)
-  expect(page).to have_content(spirit.flight_number)
-  expect(page).to have_content(spirit.domestic_flight)
-  expect(page).to have_content(united.name)
-  expect(page).to have_content(united.flight_number)
-  expect(page).to have_content(united.domestic_flight)
+    ord = Airport.create!(name: "Chicago O' Hare", terminals: 4, international_hub: true)
+    ord.airlines.create!(name:'Spirit', flight_number: 714, domestic_flight: true)
+    ord.airlines.create!(name:'Frontier', flight_number: 117, domestic_flight: true)
+    visit "/airports/#{ord.id}"
+    expect(page).to have_content("Airlines At This Airport (2)")
   end
 end
