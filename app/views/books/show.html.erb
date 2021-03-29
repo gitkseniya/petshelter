@@ -1,0 +1,14 @@
+<p class="btn btn-light" role="button"><%= link_to 'Libraries', '/libraries' %></p>
+<p class="btn btn-light" role="button"><%= link_to 'Books', '/books' %></p>
+
+<h1><%= @book.name %></h1>
+
+
+<p>Author: <%= @book.author %>;
+  Book id: <%= @book.id %>;
+  Library id: <%= @book.library_id %>;
+  Availability: <%= @book.available %>;
+  Rating: <%= @book.rating %></p>
+  <div class="dateandtime">
+  <p>Created at: <%= @book.created_at.to_formatted_s(:long) %>;
+    Updated at: <%= @book.updated_at.to_formatted_s(:long) %></p></div>

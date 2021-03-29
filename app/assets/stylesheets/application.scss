@@ -13,3 +13,37 @@
  *= require_tree .
  *= require_self
  */
+
+ @import "bootstrap";
+
+.welcome {
+  padding: 80px;
+}
+
+body {
+  background-image: url(https://blog.ironmarkusa.com/hs-fs/hubfs/Case%20binding-type%20book.jpg?width=2500&height=1377&name=Case%20binding-type%20book.jpg.jpg);
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  height: 100%;
+}
+
+.drk_background {
+  background-color: black;
+  color: white;
+}
+
+body, html {
+  height: 100%;
+}
+
+.header {text-align: center;}
+
+.dateandtime {
+  font-size: 10px;
+  line-height: 1.6;
+}
