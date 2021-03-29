@@ -13,12 +13,10 @@ RSpec.describe "Story6: When I visit airport index page", type: :feature do
   it "displays all airports ordered by most recently created" do
     ord = Airport.create!(name: "Chicago O' Hare", terminals: 4, international_hub: true)
     jfk = Airport.create!(name: 'John F Kennedy', terminals: 175, international_hub: true)
+    all = Airport.all
 
-    visit "/airports"
-    expect(page).to have_content(ord.name)
-    expect(page).to have_content(ord.created_at)
-    expect(page).to have_content(jfk.name)
-    expect(page).to have_content(jfk.created_at)
+    visit '/airports'
+    assert_operator all.index(jfk), :>, all.index(ord)
   end
 end
 

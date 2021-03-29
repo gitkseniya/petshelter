@@ -244,6 +244,7 @@
           1,
           1,
           1,
+          1,
           null,
           1,
           1,
@@ -256,7 +257,7 @@
           null
         ]
       },
-      "/Users/jenniferbrabson/Turing/2102BE/Mod_2/Projects/relational_rails/spec/airline/airline_show_spec.rb": {
+      "/Users/jenniferbrabson/Turing/2102BE/Mod_2/Projects/relational_rails/spec/features/airlines/show_spec.rb": {
         "lines": [
           1,
           null,
@@ -300,7 +301,24 @@
           null
         ]
       },
-      "/Users/jenniferbrabson/Turing/2102BE/Mod_2/Projects/relational_rails/spec/airport/airport_index_spec.rb": {
+      "/Users/jenniferbrabson/Turing/2102BE/Mod_2/Projects/relational_rails/spec/features/airport_airlines/index_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/jenniferbrabson/Turing/2102BE/Mod_2/Projects/relational_rails/spec/features/airports/index_spec.rb": {
         "lines": [
           1,
           null,
@@ -317,10 +335,8 @@
           1,
           1,
           1,
+          1,
           null,
-          1,
-          1,
-          1,
           1,
           1,
           null,
@@ -346,7 +362,7 @@
           null
         ]
       },
-      "/Users/jenniferbrabson/Turing/2102BE/Mod_2/Projects/relational_rails/spec/airport/airport_show_spec.rb": {
+      "/Users/jenniferbrabson/Turing/2102BE/Mod_2/Projects/relational_rails/spec/features/airports/new_spec.rb": {
         "lines": [
           1,
           null,
@@ -355,41 +371,45 @@
           1,
           null,
           1,
-          1,
-          1,
-          1,
           null,
-          null,
-          null,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
           1,
           null,
           1,
-          1,
-          1,
-          1,
-          1,
+          0,
+          null,
+          0,
+          0,
           null,
           null
         ]
       },
-      "/Users/jenniferbrabson/Turing/2102BE/Mod_2/Projects/relational_rails/spec/airport_airlines/airport_airlines_index_spec.rb": {
+      "/Users/jenniferbrabson/Turing/2102BE/Mod_2/Projects/relational_rails/spec/features/airports/show_spec.rb": {
         "lines": [
           1,
           null,
           1,
           1,
           1,
+          null,
+          1,
           1,
           1,
           1,
           null,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
           1,
           1,
           null,
@@ -459,11 +479,15 @@
         "lines": [
           1,
           1,
-          3,
+          4,
           null,
           null,
           1,
           6,
+          null,
+          null,
+          1,
+          null,
           null,
           null
         ]
@@ -479,6 +503,6 @@
         ]
       }
     },
-    "timestamp": 1616968968
+    "timestamp": 1616978970
   }
 }
