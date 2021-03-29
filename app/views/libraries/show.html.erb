@@ -1,6 +1,8 @@
 <p class="btn btn-light" role="button"><%= link_to 'Libraries', '/libraries' %></p>
 <p class="btn btn-light" role="button"><%= link_to 'Books', '/books' %></p>
 
+<p class="btn btn-light" role="button"><a href =<%="/libraries/#{@library.id}/edit" %>> Edit </a></p>
+
 
 <h1><%= @library.name %></h1>
 <p>Library id: <%= @library.id %></p>
@@ -15,3 +17,5 @@
 <br><br>
 
 <p class="btn btn-light" role="button"><%= link_to 'Books we have', "/libraries/#{@library.id}/books" %></p>
+
+<br><br>

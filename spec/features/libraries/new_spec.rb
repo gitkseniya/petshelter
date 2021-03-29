@@ -1,3 +1,5 @@
+require 'rails_helper'
+
 RSpec.describe 'new library page', type: :feature do
 
       it 'can create a new library' do

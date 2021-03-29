@@ -16,12 +16,12 @@ class LibrariesController < ApplicationController
   end
 
   def create
-    @library = Library.new({
+    library = Library.new({
       name: params[:library][:name],
       district_num: params[:library][:district_num],
       public: params[:library][:public]
       })
-      @library.save
+      library.save
 
       redirect_to '/libraries'
     end
