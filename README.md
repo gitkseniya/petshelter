@@ -24,4 +24,6 @@ Things you may want to cover:
 * ...
 # relationship_rails
 
-![Schema](https://dbdesigner.page.link/GqrcC4zLZkonqPVPA)
+<p align="center">
+  <img src="https://dbdesigner.page.link/GqrcC4zLZkonqPVPA">
+</p>
