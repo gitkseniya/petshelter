@@ -8,6 +8,13 @@ class AirportsController < ApplicationController
   end
 
   def new
-    
+  end
+
+  def create
+    Airport.create(name: params[:name])
+      redirect_to '/airports'
+  end
+
+  def edit
   end
 end
