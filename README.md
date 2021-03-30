@@ -1,3 +1,6 @@
+
+
+
 # README
 Iteration 1
 CRUD
@@ -83,8 +86,6 @@ Then I see a link to take me to that library's `books` page ('/libraries/:id/boo
 
 ***********************************************************************
 
-
-
 Iteration 2
 CRUD
 
@@ -103,7 +104,7 @@ a new library record is created,
 and I am redirected to the Library Index page where I see the new Library displayed.
 
 
-[ ] done
+[x] done
 User Story 12, Library Update (x2)
 
 As a visitor
@@ -116,15 +117,16 @@ And I click the button to submit the form
 Then a `PATCH` request is sent to '/libraries/:id',
 the library's info is updated,
 and I am redirected to the Library's Show page where I see the library's updated info
-[ ] done
 
+
+[ ] done
 User Story 13, Library Book Creation (x2)
 
 As a visitor
 When I visit a Library Books Index page
 Then I see a link to add a new adoptable book for that library "Create Book"
 When I click the link
-I am taken to '/libraries/:library_id/book_table_name/new' where I see a form to add a new adoptable book
+I am taken to '/libraries/:id/books/new' where I see a form to add a new adoptable book
 When I fill in the form with the book's attributes:
 And I click the button "Create Book"
 Then a `POST` request is sent to '/libraries/:library_id/book_table_name',
