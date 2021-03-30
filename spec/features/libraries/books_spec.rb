@@ -1,8 +1,7 @@
 require 'rails_helper'
 
-RSpec.describe "library books page", type: :feature do
-  it "can see all books that belong to a certain library" do
-
+RSpec.describe 'library books page', type: :feature do
+  it 'can see all books that belong to a certain library' do
     library1 = create(:library)
     library2 = create(:library)
 
@@ -14,6 +13,5 @@ RSpec.describe "library books page", type: :feature do
     # save_and_open_page
     expect(page).to have_content(book1.name)
     expect(page).not_to have_content(book3.name)
-
   end
 end

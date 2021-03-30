@@ -1,5 +1,10 @@
 <p class="btn btn-light" role="button"><%= link_to 'Libraries', '/libraries' %></p>
 <p class="btn btn-light" role="button"><%= link_to 'Books', '/books' %></p>
+
+
+<p class="btn btn-light" role="button"><a href =<%="/libraries/#{@library.id}/books/new" %>> New Book </a></p>
+
+
 <br><br>
 <h1><%= @library.name %> library</h1><br>
 

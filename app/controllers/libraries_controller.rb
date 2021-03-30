@@ -4,43 +4,42 @@ class LibrariesController < ApplicationController
   end
 
   def show
-    @library = Library.find(params[:id])
+    @library = specific_library
   end
 
   def books
-    @library = Library.find(params[:id])
+    @library = specific_library
     @books = @library.books.all
   end
 
-  def new
-  end
+  def new; end
 
   def create
-    library = Library.new({
-      name: params[:library][:name],
-      district_num: params[:library][:district_num],
-      public: params[:library][:public]
-      })
-      library.save
+    library = Library.new(library_params)
+    library.save
 
-      redirect_to '/libraries'
-    end
+    redirect_to '/libraries'
+  end
 
   def edit
-    @library = Library.find(params[:id])
+    @library = specific_library
   end
 
   def update
-    library = Library.find(params[:id])
-    library.update({
-      name: params[:library][:name],
-      district_num: params[:library][:district_num],
-      public: params[:library][:public]
-      })
-      library.save
+    library = specific_library
+    library.update(library_params)
+    library.save
 
-      redirect_to "/libraries/#{library.id}"
-    end
+    redirect_to "/libraries/#{library.id}"
+  end
 
+  private
 
-    end
+  def specific_library
+    Library.find(params[:id])
+  end
+
+  def library_params
+    params.require(:library).permit(:name, :district_num, :public)
+  end
+end

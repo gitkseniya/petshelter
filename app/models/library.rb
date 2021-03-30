@@ -1,3 +1,5 @@
 class Library < ApplicationRecord
-  has_many :books
+  validates :name, presence: true
+
+  has_many :books, dependent: :destroy
 end
