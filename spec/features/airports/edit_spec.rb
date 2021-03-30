@@ -12,7 +12,7 @@ RSpec.describe "Story12: When I visit a specific airport page", type: :feature d
     fill_in 'Name', with: 'Newer JFK'
     click_on 'Update Airport'
 
-    expect(current_path).to eq("airports")
+    expect(current_path).to eq("airports/#{jfk.id}")
     expect(page).to have_content('Newer JFK')
     expect(page).to_not have_content('John F Kennedy')
   end
