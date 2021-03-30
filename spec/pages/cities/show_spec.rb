@@ -26,4 +26,10 @@ RSpec.describe "cities show page", type: :feature do
     expect(page).to have_link("countries")
     expect(page).to have_link("cities")
   end
+
+
+
+
+
+
 end

@@ -25,7 +25,31 @@ class CountriesController < ApplicationController
 
   def show_individual
 #    require 'pry'; binding.pry
-    @countries = Country.find(params[:id]) #why :parent_id, and not just :id
+    @countries = Country.find(params[:id])
+  end
+
+  def new
+  end
+
+  def edit
+    @countries = Country.find(params[:id])
+  end
+
+  def update
+
+    task = Country.find(params[:id])
+    task.update({
+      name: params[:task][:name],
+      population: params[:task][:population],
+      gdp: params[:task][:gdp],
+      has_monarch: params[:task][:has_monarch]
+      })
+
+    #  require 'pry'; binding.pry
+      task.save
+    #  require 'pry'; binding.pry
+
+      redirect_to "/countries/#{task.id}"
   end
 
 end

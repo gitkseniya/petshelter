@@ -18,7 +18,7 @@ RSpec.describe "countires show page", type: :feature do
     expect(page).to have_content("#{denver.name}, #{denver.population}, #{denver.capital}")
 
   end
-  
+
   it "Shows a link to other pages" do
 
     visit "/countries"
@@ -26,5 +26,6 @@ RSpec.describe "countires show page", type: :feature do
     expect(page).to have_link("countries")
     expect(page).to have_link("cities")
   end
+
 
 end

@@ -1,0 +1,17 @@
+<form action="/countries" method="post">
+  <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+  <p>Enter a new country:</p>
+  <p>name:</p>
+  <input type='text' name='task[name]'/><br/>
+  <p>population:</p>
+  <input type='number' name='task[population]'/><br/>
+  <p>gdp:</p>
+  <input type='number' name='task[gdp]'/><br/>
+  <p>There is a king. true or false?</p>
+  <input type='boolean' name='task[has_monarch]'/><br/>
+  <!-- input type="radio" name="country[has_monarch]" -->
+  <br/>
+  <br/>
+
+  <input name=submit type='submit'/>
+</form>

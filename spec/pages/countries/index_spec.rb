@@ -25,4 +25,15 @@ RSpec.describe "countires index page", type: :feature do
     expect(page).to have_link("cities")
   end
 
+  it "shows right order for countries " do
+
+    england = Country.create!(name: 'England', population: 200, gdp: 50, has_monarch: true)
+    us = Country.create!(name: 'US', population: 500, gdp: 100, has_monarch: false)
+
+    all = Country.all
+
+    visit "/countries"
+    assert_operator all.index(england), :<, all.index(us)
+  end
+
 end

@@ -7,5 +7,7 @@
 
 <% @countries.each do |country| %>
   <h3><%=  "#{country.name}: cities count =  #{country.cities.length}" %></h3>
-
 <% end %>
+
+
+<%= link_to "new countries", "/countries/new" %>
