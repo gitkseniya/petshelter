@@ -9,7 +9,7 @@ RSpec.describe 'delete library page' do
     click_link 'Delete'
 
     expect(current_path).to eq('/libraries')
-    expect(page).to_not have_content('The Worst Library Ever')
+    expect(page).to_not have_content(library.name)
     expect(page).to_not have_button('Delete')
   end
 end
