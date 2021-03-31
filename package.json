@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "project_1",
+=======
+  "name": "relational_rails",
+>>>>>>> ec7d96e22c4611d91dca0e1fdc42f8fdf21d472f
   "private": true,
   "dependencies": {}
 }
