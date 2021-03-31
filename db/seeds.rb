@@ -35,5 +35,3 @@ end
     FactoryBot.create_list(:book, 4, library: library)
   end
 end
-
-Rails.logger "Created #{Library.count} Libraries and #{Book.count} Books"
