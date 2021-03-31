@@ -36,7 +36,6 @@ class CountriesController < ApplicationController
   end
 
   def update
-
     task = Country.find(params[:id])
     task.update({
       name: params[:task][:name],
@@ -51,5 +50,11 @@ class CountriesController < ApplicationController
 
       redirect_to "/countries/#{task.id}"
   end
+
+  def new_city
+    @countries = Country.find(params[:country_id])
+  end
+
+
 
 end
