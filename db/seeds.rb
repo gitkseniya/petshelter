@@ -3,6 +3,8 @@ Airline.destroy_all
 Airport.destroy_all
 Book.destroy_all
 Library.destroy_all
+Country.destroy_all
+City.destroy_all
 
 jfk = Airport.create!(name: 'John F Kennedy', terminals: 6, international_hub: true)
 jfk.airlines.create!(name:'Delta', flight_number: 717, domestic_flight: true)
@@ -35,3 +37,12 @@ end
     FactoryBot.create_list(:book, 4, library: library)
   end
 end
+
+england = Country.create!(name: 'England', population: 200, gdp: 50, has_monarch: true)
+us = Country.create!(name: 'US', population: 500, gdp: 100, has_monarch: false)
+athins = Country.create!(name: 'Athins', population: 100, gdp: 10, has_monarch: false)
+england.cities.create!(name: 'London', population: 100, capital: true)
+england.cities.create!(name: 'York', population: 50, capital: false)
+us.cities.create!(name: 'New York', population: 250, capital: false)
+us.cities.create!(name: 'Denver', population: 50, capital: false)
+athins.cities.create!(name: 'Athins', population: 100, capital: true)

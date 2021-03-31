@@ -1,0 +1,17 @@
+<%= link_to "countries index", "/countries" %>
+<%= link_to "cities index", "/cities" %>
+
+
+<p style="display:inline"> <nobr> <%= link_to "edit", "/countries/#{@countries.id}/edit" %> </nobr></p>
+
+
+<h3><%= @countries.name %></h3>
+<p><%= @countries.population %></p>
+<p><%= @countries.gdp %></p>
+<p><%= @countries.has_monarch %></p>
+
+
+<%= link_to "see all cities", "/countries/#{@countries.id}/cities" %>
+<%= link_to "Create City", "/countries/#{@countries.id}/cities/new" %>
+<%= link_to "Update Country", "/countries/#{@countries.id}/edit" %>
+<%= link_to 'Delete Country', "/countries/#{@countries.id}", method: :delete %>
