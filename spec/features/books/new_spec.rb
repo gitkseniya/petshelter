@@ -7,7 +7,6 @@ RSpec.describe 'new book page', type: :feature do
 
     visit "/libraries/#{library.id}/books"
 
-
     click_link 'New Book'
 
     expect(current_path).to eq("/libraries/#{library.id}/books/new")
