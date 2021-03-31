@@ -10,16 +10,11 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-<<<<<<< HEAD
 ActiveRecord::Schema.define(version: 2021_03_27_231753) do
-=======
-ActiveRecord::Schema.define(version: 2021_03_26_225917) do
->>>>>>> ec7d96e22c4611d91dca0e1fdc42f8fdf21d472f
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
-<<<<<<< HEAD
   create_table "cities", force: :cascade do |t|
     t.string "name"
     t.integer "population"
@@ -34,28 +29,8 @@ ActiveRecord::Schema.define(version: 2021_03_26_225917) do
     t.integer "population"
     t.integer "gdp"
     t.boolean "has_monarch"
-=======
-  create_table "airlines", force: :cascade do |t|
-    t.string "name"
-    t.integer "flight_number"
-    t.boolean "domestic_flight"
-    t.bigint "airport_id"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-    t.index ["airport_id"], name: "index_airlines_on_airport_id"
-  end
-
-  create_table "airports", force: :cascade do |t|
-    t.string "name"
-    t.integer "terminals"
-    t.boolean "international_hub"
->>>>>>> ec7d96e22c4611d91dca0e1fdc42f8fdf21d472f
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
 
-<<<<<<< HEAD
-=======
-  add_foreign_key "airlines", "airports"
->>>>>>> ec7d96e22c4611d91dca0e1fdc42f8fdf21d472f
 end

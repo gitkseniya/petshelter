@@ -55,6 +55,22 @@ class CountriesController < ApplicationController
     @countries = Country.find(params[:country_id])
   end
 
+  def destroy_it
+    country = Country.find(params[:id])
+  #  City.delete_all("country_id = #{country.id}")
+  #  City.destroy_all("country_id = #{country.id}")
+
+    country.cities.each do |city|
+      City.destroy(city.id)
+    end
+
+    Country.destroy(params[:id])
+
+
+    redirect_to '/countries'
+  end
+
+
 
 
 end

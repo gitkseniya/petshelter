@@ -4,11 +4,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby '2.5.3'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-<<<<<<< HEAD
 gem 'rails', '~> 5.2.4', '>= 5.2.4.5'
-=======
-gem 'rails', '~> 5.2.5'
->>>>>>> ec7d96e22c4611d91dca0e1fdc42f8fdf21d472f
 # Use postgresql as the database for Active Record
 gem 'pg', '>= 0.18', '< 2.0'
 # Use Puma as the app server
@@ -39,21 +35,13 @@ gem 'jbuilder', '~> 2.5'
 gem 'bootsnap', '>= 1.1.0', require: false
 
 group :development, :test do
-<<<<<<< HEAD
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
-=======
->>>>>>> ec7d96e22c4611d91dca0e1fdc42f8fdf21d472f
   gem 'rspec-rails'
   gem 'capybara'
   gem 'launchy'
   gem 'simplecov'
-<<<<<<< HEAD
   gem 'pry'
   gem 'shoulda-matchers', '~> 3.1'
-=======
-  gem 'shoulda-matchers'
-  gem 'pry'
->>>>>>> ec7d96e22c4611d91dca0e1fdc42f8fdf21d472f
 end
 
 group :development do

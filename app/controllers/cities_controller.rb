@@ -54,4 +54,11 @@ class CitiesController < ApplicationController
       redirect_to "/cities/#{city.id}"
   end
 
+  def destroy
+    City.destroy(params[:id])
+
+    redirect_to '/cities'
+  end
+
+
 end

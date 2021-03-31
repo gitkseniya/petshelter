@@ -1,11 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-<<<<<<< HEAD
       "/Users/aphilosopher30/Desktop/turing_work/mod_2/project_1/config/environment.rb": {
-=======
-      "/Users/jenniferbrabson/Turing/2102BE/Mod_2/Projects/relational_rails/config/environment.rb": {
->>>>>>> ec7d96e22c4611d91dca0e1fdc42f8fdf21d472f
         "lines": [
           null,
           1,
@@ -14,11 +10,7 @@
           1
         ]
       },
-<<<<<<< HEAD
       "/Users/aphilosopher30/Desktop/turing_work/mod_2/project_1/config/application.rb": {
-=======
-      "/Users/jenniferbrabson/Turing/2102BE/Mod_2/Projects/relational_rails/config/application.rb": {
->>>>>>> ec7d96e22c4611d91dca0e1fdc42f8fdf21d472f
         "lines": [
           1,
           null,
@@ -55,11 +47,7 @@
           null
         ]
       },
-<<<<<<< HEAD
       "/Users/aphilosopher30/Desktop/turing_work/mod_2/project_1/config/boot.rb": {
-=======
-      "/Users/jenniferbrabson/Turing/2102BE/Mod_2/Projects/relational_rails/config/boot.rb": {
->>>>>>> ec7d96e22c4611d91dca0e1fdc42f8fdf21d472f
         "lines": [
           1,
           null,
@@ -67,11 +55,7 @@
           1
         ]
       },
-<<<<<<< HEAD
       "/Users/aphilosopher30/Desktop/turing_work/mod_2/project_1/config/environments/test.rb": {
-=======
-      "/Users/jenniferbrabson/Turing/2102BE/Mod_2/Projects/relational_rails/config/environments/test.rb": {
->>>>>>> ec7d96e22c4611d91dca0e1fdc42f8fdf21d472f
         "lines": [
           1,
           null,
@@ -121,11 +105,7 @@
           null
         ]
       },
-<<<<<<< HEAD
       "/Users/aphilosopher30/Desktop/turing_work/mod_2/project_1/config/initializers/application_controller_renderer.rb": {
-=======
-      "/Users/jenniferbrabson/Turing/2102BE/Mod_2/Projects/relational_rails/config/initializers/application_controller_renderer.rb": {
->>>>>>> ec7d96e22c4611d91dca0e1fdc42f8fdf21d472f
         "lines": [
           null,
           null,
@@ -137,11 +117,7 @@
           null
         ]
       },
-<<<<<<< HEAD
       "/Users/aphilosopher30/Desktop/turing_work/mod_2/project_1/config/initializers/assets.rb": {
-=======
-      "/Users/jenniferbrabson/Turing/2102BE/Mod_2/Projects/relational_rails/config/initializers/assets.rb": {
->>>>>>> ec7d96e22c4611d91dca0e1fdc42f8fdf21d472f
         "lines": [
           null,
           null,
@@ -159,11 +135,7 @@
           null
         ]
       },
-<<<<<<< HEAD
       "/Users/aphilosopher30/Desktop/turing_work/mod_2/project_1/config/initializers/backtrace_silencers.rb": {
-=======
-      "/Users/jenniferbrabson/Turing/2102BE/Mod_2/Projects/relational_rails/config/initializers/backtrace_silencers.rb": {
->>>>>>> ec7d96e22c4611d91dca0e1fdc42f8fdf21d472f
         "lines": [
           null,
           null,
@@ -174,11 +146,7 @@
           null
         ]
       },
-<<<<<<< HEAD
       "/Users/aphilosopher30/Desktop/turing_work/mod_2/project_1/config/initializers/content_security_policy.rb": {
-=======
-      "/Users/jenniferbrabson/Turing/2102BE/Mod_2/Projects/relational_rails/config/initializers/content_security_policy.rb": {
->>>>>>> ec7d96e22c4611d91dca0e1fdc42f8fdf21d472f
         "lines": [
           null,
           null,
@@ -207,11 +175,7 @@
           null
         ]
       },
-<<<<<<< HEAD
       "/Users/aphilosopher30/Desktop/turing_work/mod_2/project_1/config/initializers/cookies_serializer.rb": {
-=======
-      "/Users/jenniferbrabson/Turing/2102BE/Mod_2/Projects/relational_rails/config/initializers/cookies_serializer.rb": {
->>>>>>> ec7d96e22c4611d91dca0e1fdc42f8fdf21d472f
         "lines": [
           null,
           null,
@@ -220,11 +184,7 @@
           1
         ]
       },
-<<<<<<< HEAD
       "/Users/aphilosopher30/Desktop/turing_work/mod_2/project_1/config/initializers/filter_parameter_logging.rb": {
-=======
-      "/Users/jenniferbrabson/Turing/2102BE/Mod_2/Projects/relational_rails/config/initializers/filter_parameter_logging.rb": {
->>>>>>> ec7d96e22c4611d91dca0e1fdc42f8fdf21d472f
         "lines": [
           null,
           null,
@@ -232,11 +192,7 @@
           1
         ]
       },
-<<<<<<< HEAD
       "/Users/aphilosopher30/Desktop/turing_work/mod_2/project_1/config/initializers/inflections.rb": {
-=======
-      "/Users/jenniferbrabson/Turing/2102BE/Mod_2/Projects/relational_rails/config/initializers/inflections.rb": {
->>>>>>> ec7d96e22c4611d91dca0e1fdc42f8fdf21d472f
         "lines": [
           null,
           null,
@@ -256,11 +212,7 @@
           null
         ]
       },
-<<<<<<< HEAD
       "/Users/aphilosopher30/Desktop/turing_work/mod_2/project_1/config/initializers/mime_types.rb": {
-=======
-      "/Users/jenniferbrabson/Turing/2102BE/Mod_2/Projects/relational_rails/config/initializers/mime_types.rb": {
->>>>>>> ec7d96e22c4611d91dca0e1fdc42f8fdf21d472f
         "lines": [
           null,
           null,
@@ -268,11 +220,7 @@
           null
         ]
       },
-<<<<<<< HEAD
       "/Users/aphilosopher30/Desktop/turing_work/mod_2/project_1/config/initializers/wrap_parameters.rb": {
-=======
-      "/Users/jenniferbrabson/Turing/2102BE/Mod_2/Projects/relational_rails/config/initializers/wrap_parameters.rb": {
->>>>>>> ec7d96e22c4611d91dca0e1fdc42f8fdf21d472f
         "lines": [
           null,
           null,
@@ -290,7 +238,6 @@
           null
         ]
       },
-<<<<<<< HEAD
       "/Users/aphilosopher30/Desktop/turing_work/mod_2/project_1/config/routes.rb": {
         "lines": [
           1,
@@ -307,24 +254,15 @@
           null,
           1,
           1,
-=======
-      "/Users/jenniferbrabson/Turing/2102BE/Mod_2/Projects/relational_rails/config/routes.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          1,
-          1,
->>>>>>> ec7d96e22c4611d91dca0e1fdc42f8fdf21d472f
           1,
           null,
           1,
           1,
-<<<<<<< HEAD
+          1,
           1,
           null,
           null,
-          null,
+          1,
           1,
           1,
           1,
@@ -334,18 +272,11 @@
         ]
       },
       "/Users/aphilosopher30/Desktop/turing_work/mod_2/project_1/app/helpers/application_helper.rb": {
-=======
-          null
-        ]
-      },
-      "/Users/jenniferbrabson/Turing/2102BE/Mod_2/Projects/relational_rails/app/helpers/application_helper.rb": {
->>>>>>> ec7d96e22c4611d91dca0e1fdc42f8fdf21d472f
         "lines": [
           1,
           null
         ]
       },
-<<<<<<< HEAD
       "/Users/aphilosopher30/Desktop/turing_work/mod_2/project_1/spec/pages/cities/index_spec.rb": {
         "lines": [
           1,
@@ -358,59 +289,66 @@
           null,
           1,
           1,
-          null,
-          null,
-          1,
-          null,
-          null,
-          1,
-          1,
-          null,
-          1,
           1,
           null,
           null,
           1,
           null,
-          1,
           null,
-=======
-      "/Users/jenniferbrabson/Turing/2102BE/Mod_2/Projects/relational_rails/spec/features/airlines/show_spec.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          1,
-          1,
           1,
           1,
           null,
           1,
           1,
-          1,
-          1,
-          1,
-          1,
->>>>>>> ec7d96e22c4611d91dca0e1fdc42f8fdf21d472f
+          null,
           1,
           1,
           null,
           null,
-<<<<<<< HEAD
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          null,
+          null,
+          null,
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          null,
+          1,
+          null,
+          null,
+          1,
+          null,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
           null
         ]
       },
       "/Users/aphilosopher30/Desktop/turing_work/mod_2/project_1/spec/pages/cities/show_spec.rb": {
         "lines": [
           1,
-=======
->>>>>>> ec7d96e22c4611d91dca0e1fdc42f8fdf21d472f
           null,
           1,
           1,
           1,
           1,
-<<<<<<< HEAD
           null,
           1,
           1,
@@ -419,20 +357,11 @@
           1,
           null,
           null,
-=======
-          1,
-          null,
-          1,
-          1,
-          1,
-          null,
->>>>>>> ec7d96e22c4611d91dca0e1fdc42f8fdf21d472f
           1,
           1,
           1,
           1,
           null,
-<<<<<<< HEAD
           null,
           null,
           1,
@@ -454,110 +383,84 @@
       "/Users/aphilosopher30/Desktop/turing_work/mod_2/project_1/spec/pages/countries/edit_spec.rb": {
         "lines": [
           null,
-=======
+          1,
+          null,
           1,
           1,
           1,
           1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
           null,
           null
         ]
       },
-      "/Users/jenniferbrabson/Turing/2102BE/Mod_2/Projects/relational_rails/spec/features/airport_airlines/index_spec.rb": {
-        "lines": [
->>>>>>> ec7d96e22c4611d91dca0e1fdc42f8fdf21d472f
-          1,
-          null,
-          1,
-          1,
-          1,
-          1,
-<<<<<<< HEAD
-          null,
-          1,
-          1,
-          null,
-          1,
-          null,
-          1,
-          null,
-          1,
-          null,
-          1,
-          1,
-          1,
-          1,
-          null,
-=======
-          1,
->>>>>>> ec7d96e22c4611d91dca0e1fdc42f8fdf21d472f
-          1,
-          null,
-          1,
-          1,
-<<<<<<< HEAD
-          1,
-          1,
-          1,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-=======
->>>>>>> ec7d96e22c4611d91dca0e1fdc42f8fdf21d472f
-          null,
-          null
-        ]
-      },
-<<<<<<< HEAD
       "/Users/aphilosopher30/Desktop/turing_work/mod_2/project_1/spec/pages/countries/index_spec.rb": {
         "lines": [
           1,
           null,
           null,
           1,
-=======
-      "/Users/jenniferbrabson/Turing/2102BE/Mod_2/Projects/relational_rails/spec/features/airports/index_spec.rb": {
-        "lines": [
-          1,
-          null,
->>>>>>> ec7d96e22c4611d91dca0e1fdc42f8fdf21d472f
           1,
           1,
           1,
@@ -566,7 +469,6 @@
           1,
           null,
           null,
-<<<<<<< HEAD
           1,
           null,
           1,
@@ -589,20 +491,29 @@
           null,
           1,
           null,
-=======
-          null,
-          1,
-          1,
-          1,
-          1,
-          1,
-          null,
->>>>>>> ec7d96e22c4611d91dca0e1fdc42f8fdf21d472f
           1,
           1,
           null,
           null,
-<<<<<<< HEAD
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          null,
+          null,
           null
         ]
       },
@@ -638,27 +549,10 @@
           null,
           1,
           null,
-=======
-          null,
-          1,
-          1,
           1,
           1,
           1,
           null,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
->>>>>>> ec7d96e22c4611d91dca0e1fdc42f8fdf21d472f
-          1,
-          1,
-          1,
-          null,
-<<<<<<< HEAD
           null,
           null,
           null
@@ -667,19 +561,11 @@
       "/Users/aphilosopher30/Desktop/turing_work/mod_2/project_1/spec/pages/countries/new_spec.rb": {
         "lines": [
           null,
-=======
-          null
-        ]
-      },
-      "/Users/jenniferbrabson/Turing/2102BE/Mod_2/Projects/relational_rails/spec/features/airports/new_spec.rb": {
-        "lines": [
->>>>>>> ec7d96e22c4611d91dca0e1fdc42f8fdf21d472f
           1,
           null,
           1,
           1,
           1,
-<<<<<<< HEAD
           1,
           null,
           null,
@@ -739,25 +625,10 @@
           null,
           null,
           null,
-=======
-          null,
-          1,
-          null,
-          1,
-          null,
-          1,
-          1,
-          0,
-          0,
-          null,
-          0,
-          0,
->>>>>>> ec7d96e22c4611d91dca0e1fdc42f8fdf21d472f
           null,
           null
         ]
       },
-<<<<<<< HEAD
       "/Users/aphilosopher30/Desktop/turing_work/mod_2/project_1/spec/pages/countries/show_individual_spec.rb": {
         "lines": [
           1,
@@ -768,23 +639,13 @@
           1,
           1,
           null,
-=======
-      "/Users/jenniferbrabson/Turing/2102BE/Mod_2/Projects/relational_rails/spec/features/airports/show_spec.rb": {
-        "lines": [
-          1,
-          null,
->>>>>>> ec7d96e22c4611d91dca0e1fdc42f8fdf21d472f
           1,
           1,
           1,
           null,
-<<<<<<< HEAD
           null,
           1,
           null,
-=======
-          1,
->>>>>>> ec7d96e22c4611d91dca0e1fdc42f8fdf21d472f
           1,
           1,
           1,
@@ -792,7 +653,6 @@
           null,
           null,
           1,
-<<<<<<< HEAD
           null,
           1,
           null,
@@ -820,17 +680,6 @@
           null,
           1,
           null,
-=======
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          null,
-          1,
->>>>>>> ec7d96e22c4611d91dca0e1fdc42f8fdf21d472f
           1,
           1,
           1,
@@ -839,7 +688,6 @@
           null,
           null,
           1,
-<<<<<<< HEAD
           null,
           1,
           null,
@@ -850,27 +698,10 @@
           null,
           null,
           null,
-=======
-          1,
-          1,
-          1,
-          null,
-          0,
-          null,
-          0,
-          null,
-          0,
-          0,
-          null,
-          0,
-          0,
-          0,
->>>>>>> ec7d96e22c4611d91dca0e1fdc42f8fdf21d472f
           null,
           null
         ]
       },
-<<<<<<< HEAD
       "/Users/aphilosopher30/Desktop/turing_work/mod_2/project_1/app/models/country.rb": {
         "lines": [
           1,
@@ -886,37 +717,18 @@
         ]
       },
       "/Users/aphilosopher30/Desktop/turing_work/mod_2/project_1/app/models/city.rb": {
-=======
-      "/Users/jenniferbrabson/Turing/2102BE/Mod_2/Projects/relational_rails/app/models/airport.rb": {
-        "lines": [
-          1,
-          1,
-          null,
-          1,
-          null,
-          null,
-          1,
-          0,
-          null,
-          null,
-          null
-        ]
-      },
-      "/Users/jenniferbrabson/Turing/2102BE/Mod_2/Projects/relational_rails/app/models/application_record.rb": {
->>>>>>> ec7d96e22c4611d91dca0e1fdc42f8fdf21d472f
         "lines": [
           1,
           1,
           null
         ]
       },
-<<<<<<< HEAD
       "/Users/aphilosopher30/Desktop/turing_work/mod_2/project_1/app/controllers/cities_controller.rb": {
         "lines": [
           null,
           1,
           1,
-          1,
+          2,
           null,
           null,
           1,
@@ -930,108 +742,85 @@
           0,
           null,
           0,
-          null,
-          null,
-          1,
-          3,
-          null,
-          3,
-          null,
-          null,
-          1,
-          1,
-          1,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          1,
-          null,
-=======
-      "/Users/jenniferbrabson/Turing/2102BE/Mod_2/Projects/relational_rails/app/models/airline.rb": {
-        "lines": [
-          1,
-          1,
-          null,
-          1,
-          null,
-          null
-        ]
-      },
-      "/Users/jenniferbrabson/Turing/2102BE/Mod_2/Projects/relational_rails/app/controllers/airlines_controller.rb": {
-        "lines": [
-          1,
-          1,
->>>>>>> ec7d96e22c4611d91dca0e1fdc42f8fdf21d472f
-          1,
-          null,
-          null,
-          1,
-<<<<<<< HEAD
-          1,
-          null,
-          null,
-          1,
-          1,
-          1,
-=======
-          8,
-          null,
-          null,
->>>>>>> ec7d96e22c4611d91dca0e1fdc42f8fdf21d472f
-          null,
-          null,
-          null,
-          null,
-          null,
-<<<<<<< HEAD
-          1,
-          null,
-          1,
-=======
->>>>>>> ec7d96e22c4611d91dca0e1fdc42f8fdf21d472f
-          null,
-          null,
-          null
-        ]
-      },
-<<<<<<< HEAD
-      "/Users/aphilosopher30/Desktop/turing_work/mod_2/project_1/app/controllers/application_controller.rb": {
-=======
-      "/Users/jenniferbrabson/Turing/2102BE/Mod_2/Projects/relational_rails/app/controllers/application_controller.rb": {
->>>>>>> ec7d96e22c4611d91dca0e1fdc42f8fdf21d472f
-        "lines": [
-          1,
-          null
-        ]
-      },
-<<<<<<< HEAD
-      "/Users/aphilosopher30/Desktop/turing_work/mod_2/project_1/app/controllers/countries_controller.rb": {
-        "lines": [
-          1,
-          1,
-          9,
-          null,
-          null,
-          1,
-          1,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          1,
-          null,
-          1,
           null,
           null,
           1,
           4,
+          null,
+          4,
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/aphilosopher30/Desktop/turing_work/mod_2/project_1/app/controllers/application_controller.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
+      "/Users/aphilosopher30/Desktop/turing_work/mod_2/project_1/app/controllers/countries_controller.rb": {
+        "lines": [
+          1,
+          1,
+          10,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          1,
+          null,
+          null,
+          1,
+          5,
           null,
           null,
           null,
@@ -1044,24 +833,10 @@
           null,
           null,
           1,
-=======
-      "/Users/jenniferbrabson/Turing/2102BE/Mod_2/Projects/relational_rails/app/controllers/airports_controller.rb": {
-        "lines": [
-          1,
-          1,
-          4,
-          null,
-          null,
-          1,
-          6,
-          null,
-          null,
->>>>>>> ec7d96e22c4611d91dca0e1fdc42f8fdf21d472f
           1,
           null,
           null,
           1,
-<<<<<<< HEAD
           1,
           1,
           null,
@@ -1081,30 +856,28 @@
           1,
           null,
           null,
-          null,
-=======
-          0,
-          0,
-          null,
-          null
-        ]
-      },
-      "/Users/jenniferbrabson/Turing/2102BE/Mod_2/Projects/relational_rails/app/controllers/airport_airlines_controller.rb": {
-        "lines": [
           1,
           1,
-          4,
-          4,
->>>>>>> ec7d96e22c4611d91dca0e1fdc42f8fdf21d472f
+          null,
+          null,
+          null,
+          1,
+          2,
+          null,
+          null,
+          1,
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
           null,
           null
         ]
       }
     },
-<<<<<<< HEAD
-    "timestamp": 1617123424
-=======
-    "timestamp": 1616988612
->>>>>>> ec7d96e22c4611d91dca0e1fdc42f8fdf21d472f
+    "timestamp": 1617202324
   }
 }

@@ -22,9 +22,3 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
-<<<<<<< HEAD
-=======
-# relationship_rails
-
-
->>>>>>> ec7d96e22c4611d91dca0e1fdc42f8fdf21d472f
