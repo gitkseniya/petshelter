@@ -16,11 +16,10 @@ Rails.application.routes.draw do
   delete '/libraries/:id', to: 'libraries#destroy'
 
   get '/books', to: 'books#index'
-
   get '/books/:id', to: 'books#show'
   get '/books/:id/edit', to: 'books#edit'
-
   patch '/books/:id', to: 'books#update'
+  delete '/books/:id', to: 'books#destroy'
 
   # resources :airports, only: [:index, :show]
   # then rails routes in cl

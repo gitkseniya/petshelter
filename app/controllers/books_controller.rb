@@ -1,6 +1,5 @@
 class BooksController < ApplicationController
   def index
-    # abstract onto model
     @books = Book.where(available: :true)
   end
 
@@ -15,32 +14,35 @@ class BooksController < ApplicationController
     book.save
 
     redirect_to "/libraries/#{@library.id}/books"
-
   end
 
   def show
-    @book = specific_book
+    @book = Book.find(params[:id])
   end
 
   def edit
-    @book = specific_book
+    @book = Book.find(params[:id])
   end
 
   def update
-    book = specific_book
+    book = Book.find(params[:id])
     book.update(books_params)
+
     book.save
 
     redirect_to "/books/#{book.id}"
   end
 
-  private
+  def destroy
+    @book = Book.find(params[:id])
+    @book.destroy
 
-  def specific_book
-    Book.find(params[:id])
+    redirect_to '/books'
   end
 
+  private
+
   def books_params
-    params.permit(:name, :author, :rating, :available, :library_id)
+    params.permit(:name, :author, :rating, :available)
   end
 end

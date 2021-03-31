@@ -1,6 +1,7 @@
 <p class="btn btn-light" role="button"><%= link_to 'Libraries', '/libraries' %></p>
 <p class="btn btn-light" role="button"><%= link_to 'Books', '/books' %></p>
 <p class="btn btn-light" role="button"><a href =<%="/books/#{@book.id}/edit" %>> Edit </a></p>
+<p class="btn btn-danger" role="button"><%= link_to 'Delete', "/books/#{@book.id}", method: :delete %></p>
 
 <h1><%= @book.name %></h1>
 

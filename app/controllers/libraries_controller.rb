@@ -33,6 +33,13 @@ class LibrariesController < ApplicationController
     redirect_to "/libraries/#{library.id}"
   end
 
+  def destroy
+    @library = specific_library
+    @library.destroy
+
+    redirect_to '/libraries'
+  end
+
   private
 
   def specific_library
