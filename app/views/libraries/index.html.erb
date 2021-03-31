@@ -1,0 +1,22 @@
+<p class="btn btn-light" role="button"><%= link_to 'Libraries', '/libraries' %></p>
+<p class="btn btn-light" role="button"><%= link_to 'Books', '/books' %></p>
+
+<h3 class="header">List of Libraries in Pushkin Network</h3>
+<br>
+
+
+<div class="container">
+  <% @libraries.each_slice(3)  do |libraries| %>
+    <div class="row">
+    <% libraries.each  do |library| %>
+      <div class="col-sm-6 col-lg-4">
+        <a href="/libraries/<%= library.id %>" class="btn btn-light" role="button"><%= library.name %></a>
+        <br>
+      </div>
+    <% end %>
+    </div>
+  <% end %>
+</div>
+
+<br><br>
+<p class="btn btn-info" role="button"><%= link_to 'New Library', '/libraries/new' %></p>

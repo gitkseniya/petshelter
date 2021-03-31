@@ -1,0 +1,10 @@
+<form action="/libraries" method="post">
+  <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+  <p>Enter a new library name:</p>
+  <input type='text' name='library[name]'/><br/>
+  <p>District number (1-18):</p>
+  <input type='number' name='library[district_num]'/><br/>
+  <p>Public status:</p>
+  <input type='text' name='library[public]'/><br/><br><br>
+  <input type='submit' name='submit'/>
+</form>

@@ -33,5 +33,25 @@ ActiveRecord::Schema.define(version: 2021_03_26_225917) do
     t.datetime "updated_at", null: false
   end
 
+  create_table "books", force: :cascade do |t|
+    t.boolean "available"
+    t.integer "rating"
+    t.string "name"
+    t.string "author"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.bigint "library_id"
+    t.index ["library_id"], name: "index_books_on_library_id"
+  end
+
+  create_table "libraries", force: :cascade do |t|
+    t.boolean "public", default: true
+    t.integer "district_num"
+    t.string "name"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
   add_foreign_key "airlines", "airports"
+  add_foreign_key "books", "libraries"
 end

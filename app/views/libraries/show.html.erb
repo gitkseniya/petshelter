@@ -1,0 +1,21 @@
+<p class="btn btn-light" role="button"><%= link_to 'Libraries', '/libraries' %></p>
+<p class="btn btn-light" role="button"><%= link_to 'Books', '/books' %></p>
+
+<p class="btn btn-light" role="button"><a href =<%="/libraries/#{@library.id}/edit" %>> Edit </a></p>
+
+
+<h1><%= @library.name %></h1>
+<p>Library id: <%= @library.id %></p>
+<p>District number: <%= @library.district_num %></p>
+<p>Public status: <%= @library.public %></p>
+<p>Number of Books: <%=@library.books.count%></p>
+<br>
+<div class="dateandtime">
+<p>Created at: <%= @library.created_at.to_formatted_s(:long) %></p>
+<p>Updated at: <%= @library.updated_at.to_formatted_s(:long) %></p></div>
+
+<br><br>
+
+<p class="btn btn-light" role="button"><%= link_to 'Books we have', "/libraries/#{@library.id}/books" %></p>
+
+<br><br>

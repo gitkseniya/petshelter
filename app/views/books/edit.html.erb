@@ -1,0 +1,10 @@
+<form action="/books/<%= @book.id %>" method="post">
+  <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+  <input type="hidden" name="_method" value="PATCH" />
+  <h3>Edit book info</h3>
+  <p><input type='text' name='book[name]' value="<%= @book.name %>"/> title</p>
+  <p><input type='text' name='book[author]' value="<%= @book.author %>"/> author</p>
+  <p><input type='text' name='book[available]' value="<%= @book.available %>"/> availability</p>
+  <p><input type='number' name='book[library_id]' value="<%= @book.library_id %>"/>library id</p>
+  <input type='submit' name='submit'/><br><br>
+</form>
