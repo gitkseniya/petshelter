@@ -9,8 +9,9 @@ RSpec.describe "Story11: When I visit the new airport form by clicking a link on
     expect(current_path).to eq('/airports/new')
 
     fill_in 'Name', with: 'Wichita Dwight D. Eisenhower'
-    fill_in 'Number of Terminals', with: '3'
-    fill_in 'International Hub', with: 'false'
+    # save_and_open_page
+    fill_in 'Terminals', with: '3'
+    fill_in 'International hub', with: 'false'
     click_on 'Create Airport'
 
     expect(current_path).to eq("/airports")
