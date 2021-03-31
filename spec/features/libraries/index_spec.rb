@@ -9,7 +9,6 @@ RSpec.describe 'library index page', type: :feature do
     @book1 = create(:book)
 
     visit '/libraries'
-    # save_and_open_page
   end
 
   it 'can see all libraries with links to show pages' do

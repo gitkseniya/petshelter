@@ -7,7 +7,6 @@ RSpec.describe 'library show page', type: :feature do
   end
 
   it 'can see library with all attributes' do
-    # save_and_open_page
     expect(page).to have_content(@library1.name)
     expect(page).to have_content(@library1.id)
     expect(page).to have_content(@library1.district_num)

@@ -10,7 +10,7 @@ RSpec.describe 'library books page', type: :feature do
     book3 = create(:book, library_id: library2.id)
 
     visit "/libraries/#{library1.id}/books"
-    # save_and_open_page
+
     expect(page).to have_content(book1.name)
     expect(page).not_to have_content(book3.name)
   end
