@@ -8,6 +8,7 @@
 <% @cities.each do |city| %>
   <h3><%=  city.name %></h3>
   <%= link_to "Update #{city.name}", "/cities/#{city.id}/edit" %>
+  <%= link_to 'Delete', "/cities/#{city.id}", method: :delete %>
   <p> <%= " #{city.population}, #{city.capital}, #{city.country_id}" %> </p>
 
 <% end %>

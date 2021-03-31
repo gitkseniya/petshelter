@@ -8,6 +8,7 @@
 <% @countries.each do |country| %>
   <h3><%=  "#{country.name}: cities count =  #{country.cities.length}" %></h3>
   <%= link_to "Update #{country.name}", "/countries/#{country.id}/edit" %>
+  <%= link_to 'Delete', "/countries/#{country.id}", method: :delete %>
 
 <% end %>
 
