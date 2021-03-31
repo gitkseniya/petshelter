@@ -1,0 +1,11 @@
+<%= form_with url: "/airports/airports/#{@airport.id}", method: :post, local: true do |form| %>
+  <%= form.label :name %>
+  <%= form.text_field :name %><br/>
+  <br/>
+  <%= form.label :flight_number %>
+  <%= form.number_field :flight_number %><br/>
+  <br/>
+  <%= form.label :domestic_flight %>
+  <%= form.text_field :domestic_flight %>
+  <%= form.submit 'Add Airline' %>
+<% end %>
