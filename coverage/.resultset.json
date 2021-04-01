@@ -1312,6 +1312,24 @@
           null
         ]
       },
+      "/Users/aphilosopher30/Desktop/turing_work/mod_2/relationship_rails/spec/models/countries_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          2,
+          null,
+          null
+        ]
+      },
+      "/Users/aphilosopher30/Desktop/turing_work/mod_2/relationship_rails/app/models/country.rb": {
+        "lines": [
+          1,
+          1,
+          null
+        ]
+      },
       "/Users/aphilosopher30/Desktop/turing_work/mod_2/relationship_rails/spec/models/library_spec.rb": {
         "lines": [
 
@@ -1494,13 +1512,6 @@
           1,
           0,
           null,
-          null
-        ]
-      },
-      "/Users/aphilosopher30/Desktop/turing_work/mod_2/relationship_rails/app/models/country.rb": {
-        "lines": [
-          1,
-          1,
           null
         ]
       },
@@ -1691,6 +1702,6 @@
         ]
       }
     },
-    "timestamp": 1617244160
+    "timestamp": 1617246134
   }
 }
