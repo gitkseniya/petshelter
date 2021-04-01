@@ -1,0 +1,12 @@
+<%= form_with url: "/cities/#{@cities.id}", method: :patch, local: true do |form| %>
+  <%= form.label :name %>
+  <%= form.text_field :name %><br>
+
+  <%= form.label :population %>
+  <%= form.text_field :population %><br>
+
+  <%= form.label :capital %>
+  <%= form.text_field :capital %><br>
+
+  <%= form.submit 'Edit City' %>
+<% end %>

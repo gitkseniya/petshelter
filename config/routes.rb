@@ -21,6 +21,7 @@ Rails.application.routes.draw do
   patch '/books/:id', to: 'books#update'
   delete '/books/:id', to: 'books#destroy'
 
+  
   # resources :airports, only: [:index, :show]
   # then rails routes in cl
   get '/airports', to: 'airports#index'
@@ -35,4 +36,24 @@ Rails.application.routes.draw do
 
   get '/airlines', to: 'airlines#index'
   get '/airlines/:id', to: 'airlines#show'
+  get '/airlines/:id/edit', to: 'airlines#edit'
+  patch '/airlines/:id', to: 'airlines#update'
+  
+  
+  get '/countries', to: 'countries#index'
+  get '/countries/new', to: 'countries#new'
+  post '/countries', to: 'countries#create'
+  patch '/countries/:id', to: 'countries#update'
+  get '/countries/:id', to: 'countries#show'
+  post '/countries/:id', to: 'cities#addopt'
+  get '/countries/:id/cities', to: 'countries#show_individual'
+  get '/countries/:country_id/cities/new', to: 'countries#new_city'
+  get '/countries/:id/edit', to: 'countries#edit'
+  delete '/countries/:id', to: 'countries#destroy_it'
+  get '/cities', to: "cities#index"
+  get '/cities/:id', to: 'cities#show'
+  get '/cities/:id/edit', to: 'cities#edit'
+  patch '/cities/:id', to: 'cities#update'
+  delete '/cities/:id', to: 'cities#destroy'
+
 end
