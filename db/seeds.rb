@@ -1,4 +1,3 @@
-require 'factory_bot_rails'
 Airline.destroy_all
 Airport.destroy_all
 Book.destroy_all

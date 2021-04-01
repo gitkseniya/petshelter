@@ -6,10 +6,27 @@ class AirlinesController < ApplicationController
   def show
     @airline = Airline.find(params[:id])
   end
+
+  def edit
+    @airline = Airline.find(params[:id])
+  end
+
+  def update
+    airline = Airline.find(params[:id])
+    airline.update(airline_params)
+    airline.save
+    redirect_to "/airlines/#{airline.id}"
+  end
+
+  private
+
+  def airline_params
+    params.permit(:name, :flight_number, :domestic_flight)
+  end
   #
   # def airlines_list
-  #   @airport = Airport.find(params[:id])
-  #   @airlines = @airport.airlines.all
+  #   @airline = Airline.find(params[:id])
+  #   @airlines = @airline.airlines.all
   #   binding.pry
   #   @airlines
   # end
