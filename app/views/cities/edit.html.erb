@@ -1,3 +1,6 @@
+<%= link_to "countries index", "/countries" %>
+<%= link_to "cities index", "/cities" %>
+
 <%= form_with url: "/cities/#{@cities.id}", method: :patch, local: true do |form| %>
   <%= form.label :name %>
   <%= form.text_field :name %><br>

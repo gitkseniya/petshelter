@@ -18,7 +18,6 @@ class CitiesController < ApplicationController
 
   def show
     @city = City.find(params[:id])
-#    require 'pry'; binding.pry
     @country = Country.find(@city.country_id)
   end
 
