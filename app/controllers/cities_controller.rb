@@ -1,6 +1,6 @@
 class CitiesController < ApplicationController
   def index
-    @cities = City.where("capital = true")
+    @cities = City.all #where("capital = true")
   end
 
   def create

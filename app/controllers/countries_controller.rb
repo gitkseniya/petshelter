@@ -20,7 +20,6 @@ class CountriesController < ApplicationController
     @countries = Country.find(params[:id])
   end
 
-
   def show_individual
     @countries = Country.find(params[:id])
   end
