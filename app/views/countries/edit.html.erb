@@ -1,0 +1,20 @@
+<form action=<%="/countries/#{@countries.id}"%> method="post">
+
+  <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+  <input type="hidden" name="_method" value="PATCH" />
+  <p><%= "Edit #{@countries.name}"%></p>
+
+  <p>name:</p>
+  <input type='text' value=<%= "#{@countries.name}"%> name='task[name]'/><br/>
+  <p>population:</p>
+  <input type='number' value=<%= "#{@countries.population}"%> name='task[population]'/><br/>
+  <p>gdp:</p>
+  <input type='number' value=<%= "#{@countries.gdp}"%> name='task[gdp]'/><br/>
+  <p>There is a king. true or false?</p>
+  <input type='boolean' value=<%= "#{@countries.has_monarch}"%> name='task[has_monarch]'/><br/>
+  <!-- input type="radio" name="country[has_monarch]" -->
+  <br/>
+  <br/>
+
+  <input name=submit type='submit'/>
+</form>
