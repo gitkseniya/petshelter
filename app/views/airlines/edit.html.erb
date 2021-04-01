@@ -1,0 +1,11 @@
+<%= form_with url: "/airlines/#{@airline.id}", method: :patch, local: true do |form| %>
+  <%= form.label :name %>
+  <%= form.text_field :name %><br/>
+  <br/>
+  <%= form.label :Flight_Number %>
+  <%= form.text_field :Flight_Number %><br/>
+  <br/>
+  <%= form.label :Domestic_Flight %>
+  <%= form.text_field :Domestic_Flight %>
+  <%= form.submit 'Update Airline' %>
+<% end %>

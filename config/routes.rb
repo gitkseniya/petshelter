@@ -34,6 +34,10 @@ Rails.application.routes.draw do
   get '/airports/airports/:id/airlines/new', to: 'airport_airlines#new'
   post '/airports/airports/:id', to: 'airport_airlines#create'
 
+
   get '/airlines', to: 'airlines#index'
   get '/airlines/:id', to: 'airlines#show'
+  get '/airlines/:id/edit', to: 'airlines#edit'
+  patch '/airlines/:id', to: 'airlines#update'
+
 end
