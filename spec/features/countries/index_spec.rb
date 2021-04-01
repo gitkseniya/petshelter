@@ -1,6 +1,5 @@
 require 'rails_helper'
 
-
 RSpec.describe "countires index page", type: :feature do
   it "shows all countries and citty counts" do
     england = Country.create!(name: 'England', population: 200, gdp: 50, has_monarch: true)
@@ -18,11 +17,19 @@ RSpec.describe "countires index page", type: :feature do
   end
 
   it "Shows a link to other pages" do
+    england = Country.create!(name: 'England', population: 200, gdp: 50, has_monarch: true)
+    us = Country.create!(name: 'US', population: 500, gdp: 100, has_monarch: false)
+
+
 
     visit "/countries"
 
     expect(page).to have_link("countries")
     expect(page).to have_link("cities")
+    expect(page).to have_link("Update #{england.name}")
+    expect(page).to have_link("Update #{us.name}")
+
+    expect(page).to have_link("Delete")
   end
 
   it "shows right order for countries " do
@@ -54,5 +61,4 @@ RSpec.describe "countires index page", type: :feature do
     expect(page).to have_content('US')
     expect(page).to have_no_content('England')
   end
-
 end
