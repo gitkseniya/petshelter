@@ -21,10 +21,18 @@ RSpec.describe "countires show page", type: :feature do
 
   it "Shows a link to other pages" do
 
-    visit "/countries"
+    us = Country.create!(name: 'US', population: 500, gdp: 100, has_monarch: false)
+    england = Country.create!(name: 'England', population: 200, gdp: 50, has_monarch: true)
+
+    york = england.cities.create!(name: 'York', population: 50, capital: true)
+    new_york = us.cities.create!(name: 'New York', population: 250, capital: false)
+
+    visit "/countries/#{us.id}/cities"
 
     expect(page).to have_link("countries")
     expect(page).to have_link("cities")
+    expect(page).to have_link("Delete")
+    expect(page).to have_link("Update #{new_york.name}")
   end
 
 

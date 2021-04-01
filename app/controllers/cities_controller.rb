@@ -1,6 +1,6 @@
 class CitiesController < ApplicationController
   def index
-    @cities = City.all #where("capital = true")
+    @cities = City.where("capital = true")
   end
 
   def create
@@ -18,7 +18,6 @@ class CitiesController < ApplicationController
 
   def show
     @city = City.find(params[:id])
-#    require 'pry'; binding.pry
     @country = Country.find(@city.country_id)
   end
 

@@ -1,14 +1,11 @@
 <%= link_to "countries index", "/countries" %>
 <%= link_to "cities index", "/cities" %>
 
+<h3><%= @city.name %></h3>
 
-<h1>All cities</h1>
+<p><%= @city.population %></p>
+<p><%= @city.capital %></p>
+<p><%= "#{@city.country_id} (aka #{@country.name})"%></p>
 
-
-<% @cities.each do |city| %>
-  <h3><%=  city.name %></h3>
-  <%= link_to "Update #{city.name}", "/cities/#{city.id}/edit" %>
-  <%= link_to 'Delete', "/cities/#{city.id}", method: :delete %>
-  <p> <%= " #{city.population}, #{city.capital}, #{city.country_id}" %> </p>
-
-<% end %>
+<%= link_to "Update City", "/cities/#{@city.id}/edit" %>
+<%= link_to 'Delete City', "/cities/#{@city.id}", method: :delete %>
